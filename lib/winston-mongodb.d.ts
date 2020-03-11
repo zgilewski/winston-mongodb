@@ -153,7 +153,7 @@ declare module 'winston-mongodb' {
         * @type {function}
         * @memberof MongoDBConnectionOptions
         */
-       trasformDocument?: function;
+       transformDocument?: function;
 
     }
     
