@@ -150,10 +150,10 @@ declare module 'winston-mongodb' {
        /**
         * A function that takes the default log document and trasform it to another document. Optional.
         *
-        * @type {function}
+        * @type {*}
         * @memberof MongoDBConnectionOptions
         */
-       transformDocument?: function;
+       transformDocument?: any;
 
     }
     
